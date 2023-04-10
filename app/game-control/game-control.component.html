@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row">
+        Game control:
+        <hr>
+      <div class="col-xs-12"> 
+        <button class="btn btn-primary" (click)="startGame()" [disabled]="isGameRunning">Start Game</button>
+        <button class="btn btn-danger" (click)="stopGame()" [disabled]="!isGameRunning">Stop Game</button>
+<!-- <app-even></app-even> -->
+<!-- <app-odd></app-odd> -->
+        <!-- <app-odd *ngFor="let numbers of oddNumberElements"></app-odd> -->
+        <!-- <app-even *ngFor="let numbers of evenNumberElements"></app-even> -->
+      </div>
+    </div>
+  </div>
